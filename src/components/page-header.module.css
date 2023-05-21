@@ -1,0 +1,17 @@
+.header{
+  width: 100%;
+
+}
+
+.header h1{
+  color: var(--marine-blue);
+  font-weight: 500;
+}
+
+.header p{
+  
+  color: var(--dark-gray);
+  font-weight: 100;
+  font-size: 14px;
+  margin-top: 0.65em;
+}

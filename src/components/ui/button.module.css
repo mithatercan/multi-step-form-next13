@@ -1,0 +1,19 @@
+.button{
+  background-color: var(--marine-blue);
+  color : var(--white);
+  border: none;
+  padding: 1em 2em;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+
+ 
+}
+
+.confirm{
+  background-color: var(--purplish-blue);
+  color : var(--white);
+  border: none;
+  padding: 1em 2em;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}

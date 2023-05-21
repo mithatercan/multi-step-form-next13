@@ -1,0 +1,43 @@
+
+
+.step {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 1em;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.right-side p{
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--pastel-blue);
+}
+
+.right-side h6{
+  color: var(--white);
+  letter-spacing: 0.05em;
+}
+
+.index {
+  font-size: 14px;
+  border-radius: 50%;
+  border: 1px solid var(--white);
+  color: var(--white);
+  width: 2em;
+  height: 2em;
+  display: grid;
+  place-items: center;
+}
+
+
+.step.active .index {
+  border-color: var(--light-blue);
+  color: var(--marine-blue);
+  background-color: var(--light-blue);
+}
