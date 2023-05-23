@@ -1,0 +1,38 @@
+.add-on{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--light-gray);
+  padding: 0.8em;
+}
+
+.add-on.selected{
+  background-color: var(--alabaster);
+  border-color: var(--purplish-blue);
+}
+
+.add-on-content{
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+
+
+.add-on-details h5{
+  color: var(--marine-blue);
+  font-weight: 500;
+}
+
+.add-on-details p{
+  margin-top: 0.35em;
+ font-size: 0.8em;
+ color: var(--dark-gray);
+}
+
+.add-on-price{
+  font-size: 0.7em;
+  color : var(--purplish-blue)
+}

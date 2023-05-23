@@ -1,0 +1,30 @@
+
+
+.plans-container{
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.plan-type-container{
+  margin-top: 1.5em;
+  width: 100%;
+  background-color: var(--alabaster);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  padding: 1em;
+}
+
+.plan-type-container p{
+  font-size: 0.8em;
+  color: var(--dark-gray);
+}
+
+.cta-container{
+  display: flex;
+  margin-top: 1em;
+  justify-content: space-between;
+  align-items: center;
+}

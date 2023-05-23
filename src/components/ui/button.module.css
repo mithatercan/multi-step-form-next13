@@ -5,8 +5,11 @@
   padding: 1em 2em;
   border-radius: var(--border-radius);
   cursor: pointer;
+}
 
- 
+.button:disabled{
+  cursor: not-allowed;
+  opacity: 0.8;
 }
 
 .confirm{

@@ -1,0 +1,33 @@
+.input{
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.switch{
+  position: relative;
+  width: 2.25em;
+  height: 1.1em;
+  background-color: var(--marine-blue);
+  border-radius: 150px;
+}
+
+.slider{
+  content: "";
+  position: absolute;
+  width: 0.7em;
+  height: 0.7em;
+  top: 50%;
+  left: 0.2em;
+  translate: 0% -50%;
+  background-color: var(--white);
+  border-radius: 50%;
+  z-index: 1;
+  transition: 0.2s cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+
+.input:checked + .slider{
+  left: calc(2.25em - 0.9em);
+}

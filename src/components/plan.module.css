@@ -1,0 +1,31 @@
+.plan{
+  height: 9em;
+  width: 7.5em;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--light-gray);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.plan:hover{
+  border-color: var(--purplish-blue);
+}
+
+.plan.selected{
+  background-color: var(--alabaster);
+  border-color: var(--purplish-blue);
+}
+
+.plan-info h5{
+  font-weight: 500;
+  color: var(--marine-blue);
+}
+
+.plan-info p{
+  margin-top: 0.3em;
+  font-size: 0.7em;
+  color: var(--dark-gray);
+}
